@@ -6,7 +6,7 @@ pipeline{
                 sh 'rm -rf build'
                 sh 'mkdir build'
                 sh 'touch build/car.txt'
-                sh 'echo "chasis" >> build/car.txt' //create empyty  filse
+                sh 'echo "chasis" >> build/car.txt' //create empyty  filseds
                 sh 'echo "engine" >> build/car.txt'
                 sh 'echo "body" >> build/car.txt'
 
